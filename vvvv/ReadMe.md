@@ -1,5 +1,5 @@
-#StableFluidsNodes
-
+StableFluidsNodes
+===
 C++/CLI VVVV wrapper classes/nodes
 
 for 2d and 3d version alike the value class FluidNd just holds a pointer to the unmanaged StableFluid instance.

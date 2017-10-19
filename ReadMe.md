@@ -1,9 +1,8 @@
-#StableFluids
+StableFluids
+===
 
 basic **real-time fluids** with SIMD optimization
 direct implementation of [Jos Stam's Stable Fluid algorithm](http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf)
-
----
 
 > This project quite strictly reproduces the contents of the paper since it mainly served as a __reference__ for evaluating other algorithms and implementation attempts.
 > The only deviations are the additional vorticity confinement routines, eliminating the restriction to a square and evenly spaced base grid, and using Jacobi instead of Gauss-Seidel solver in order to benefit from SIMD instructions.
